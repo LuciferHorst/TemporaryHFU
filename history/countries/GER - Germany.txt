@@ -222,6 +222,11 @@ add_equipment_to_stockpile = {
 	producer = GER
 }
 add_equipment_to_stockpile = {
+	type = light_tank_artillery_equipment_2
+	amount = 200
+	producer = GER
+}
+add_equipment_to_stockpile = {
 	type = transport_plane_equipment_1
 	amount = 120
 	producer = GER

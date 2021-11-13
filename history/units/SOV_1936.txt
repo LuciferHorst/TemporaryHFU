@@ -107,8 +107,9 @@ division_template = {
 		light_armor = { x = 1 y = 3 }
 		light_armor = { x = 2 y = 0 }
 		light_armor = { x = 2 y = 1 }
-		light_armor = { x = 2 y = 2 }
-		light_armor = { x = 2 y = 3 }
+		light_tank_destroyer_brigade  = { x = 2 y = 2 }
+		light_sp_anti_air_brigade  = { x = 2 y = 3 }
+		light_sp_anti_air_brigade  = { x = 2 y = 4 }
 		motorized = { x = 3 y = 0 }
 		motorized = { x = 3 y = 1 }
 		motorized = { x = 3 y = 2 }
@@ -122,6 +123,10 @@ division_template = {
 		engineer = { x = 0 y = 0 }
 		recon = { x = 0 y = 1 }
 		artillery = { x = 0 y = 2 }
+		light_sp_artillery = {
+			x = 0
+			y = 3
+		}
 	}
 }
 units = {
@@ -143,6 +148,28 @@ units = {
 		}
 		location =5889
 		division_template = "Gornostrelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 79
+		}
+		location =5889
+		division_template = "Mekhanizirovaniy Korpus"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 72
+		}
+		location =5889
+		division_template = "Mekhanizirovaniy Korpus"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 1

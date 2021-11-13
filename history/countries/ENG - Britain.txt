@@ -136,11 +136,16 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = light_tank_equipment_2
-	amount = 800
+	amount = 1000
 	producer = ENG
 }
 add_equipment_to_stockpile = {
 	type = anti_tank_equipment_1
+	amount = 200
+	producer = ENG
+}
+add_equipment_to_stockpile = {
+	type = light_tank_aa_equipment_2
 	amount = 200
 	producer = ENG
 }
@@ -151,7 +156,12 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = support_equipment_1
-	amount = 500
+	amount = 1000
+	producer = ENG
+}
+add_equipment_to_stockpile = {
+	type = light_tank_destroyer_equipment_2
+	amount = 200
 	producer = ENG
 }
 add_equipment_to_stockpile = {

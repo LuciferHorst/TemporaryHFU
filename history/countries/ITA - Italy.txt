@@ -1,7 +1,7 @@
 capital = 2
 oob = "ITA_1936"
 set_research_slots = 4
-set_stability = 0.45
+set_stability = 0.44
 set_war_support = 0.50
 set_rule = {can_be_spymaster = no}
 create_intelligence_agency = yes
@@ -117,8 +117,8 @@ add_equipment_to_stockpile = {
 	producer =ITA
 }
 add_equipment_to_stockpile = {
-	type = armored_car_equipment_1
-	amount = 500
+	type = armored_car_equipment
+	amount = 800
 	producer =ITA
 }
 add_equipment_to_stockpile = {
@@ -133,8 +133,18 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = light_tank_equipment_2
-	amount = 1000
+	amount = 1200
 	producer =ITA
+}
+add_equipment_to_stockpile = {
+	type = light_tank_aa_equipment_2
+	amount = 200
+	producer = ITA
+}
+add_equipment_to_stockpile = {
+	type = light_tank_destroyer_equipment_2
+	amount = 150
+	producer = ITA
 }
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1

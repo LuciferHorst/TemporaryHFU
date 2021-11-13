@@ -126,7 +126,22 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = light_tank_equipment_2
-	amount = 2500
+	amount = 2200
+	producer = SOV
+}
+add_equipment_to_stockpile = {
+	type = light_tank_destroyer_equipment_2
+	amount = 300
+	producer = SOV
+}
+add_equipment_to_stockpile = {
+	type = light_tank_artillery_equipment_2
+	amount = 300
+	producer = SOV
+}
+add_equipment_to_stockpile = {
+	type = light_tank_aa_equipment_2
+	amount = 200
 	producer = SOV
 }
 add_equipment_to_stockpile = {

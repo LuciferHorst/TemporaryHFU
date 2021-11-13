@@ -460,19 +460,17 @@ ideas = {
 			removal_cost = -1
 			picture = blitzkrieg
 			modifier = {
-				army_armor_attack_factor = 0.10
+				army_armor_attack_factor = 0.05
 				air_mission_efficiency = 0.1
 				air_cas_present_factor = 0.1
 				no_supply_grace = 72
 				max_dig_in = -7
 				production_speed_air_base_factor=0.15
 				production_speed_infrastructure_factor=0.25
-				air_attack_factor = 0.05
 			}
 			targeted_modifier = {
 				tag = SOV
 				defense_bonus_against  = -0.1
-				breakthrough_bonus_against  = 0.05
 			}
 		}
 		GER_barbarossa_spr = {
@@ -602,7 +600,6 @@ ideas = {
 			targeted_modifier = {
 				tag = SOV
 				defense_bonus_against  = -0.1
-				breakthrough_bonus_against  = 0.05
 			}
 		}
 		GER_blau = {
