@@ -1,6 +1,6 @@
 capital = 107
 oob = "YUG_1936"
-set_research_slots = 3
+set_research_slots = 0
 if = {
 	limit = {
 		has_dlc = "Death or Dishonor"
@@ -13,7 +13,9 @@ if = {
 		
 	}
 }
+add_ideas = neutrality_idea1
 add_timed_idea = { idea = no_training days= 1095 }
+add_ideas = peace_training
 add_ideas = {
 	anti_german_military
 }
@@ -55,14 +57,22 @@ set_technology = {
 add_ideas = peace_training
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
-	amount = 2500
+	amount = 25000
 }
 add_equipment_to_stockpile = {
 	type = support_equipment
-	amount = 300
+	amount = 600
 }
-add_manpower = 175000
-set_convoys = 200
+add_equipment_to_stockpile = {
+	type = artillery_equipment_1
+	amount = 600
+}
+add_equipment_to_stockpile = {
+	type = anti_air_equipment_1
+	amount = 1000
+}
+add_manpower = 250000
+set_convoys = 350
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.5.3"

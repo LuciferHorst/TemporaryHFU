@@ -1,6 +1,6 @@
 capital = 47
 oob = "GRE_1936"
-set_research_slots = 3
+set_research_slots = 0
 add_ideas = {
 	limited_conscription
 	push_on_limit
@@ -18,22 +18,24 @@ set_technology = {
 	trench_warfare = 1
 
 }
+add_ideas = neutrality_idea1
+add_ideas = peace_training
 add_timed_idea = { idea = no_training days= 1095 }
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
-	amount = 7500
+	amount = 40000
 }
 add_equipment_to_stockpile = {
 	type = anti_air_equipment_1
-	amount = 500
+	amount = 1100
 }
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
-	amount = 500
+	amount = 800
 }
 add_equipment_to_stockpile = {
 	type = support_equipment_1
-	amount = 300
+	amount = 1700
 }
 add_manpower = 1000000
 set_convoys = 10

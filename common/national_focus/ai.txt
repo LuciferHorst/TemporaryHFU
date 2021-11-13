@@ -20,6 +20,8 @@ focus_tree = {
 				tag = LIT
 				tag = LAT
 				tag = EST
+				tag = YUG
+				tag = GRE
 			}
 		}
 	}

@@ -13,11 +13,13 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
+			dockyard = 2
 			9018 = {
 				naval_base = 1
 			}
 		}
 		add_core_of = YUG
+		add_extra_state_shared_building_slots = 2
 	}
 	provinces={
 		890 6402 9018 9027 10760

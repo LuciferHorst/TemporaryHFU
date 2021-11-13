@@ -1023,7 +1023,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = armor_bonus
-				bonus = 1.0
+				bonus = 2
 				uses = 1
 				category = motorized_equipment
 			}

@@ -6,13 +6,14 @@ state={
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 5
-			arms_factory = 2
+			arms_factory = 11
 			air_base = 5
 		}
 		victory_points = {
 			10514 15
 		}
 		add_core_of = YUG
+		add_extra_state_shared_building_slots = 2
 	}
 	provinces={
 		760 3386 3701 3722 6138 8822 10511 10514
@@ -20,5 +21,6 @@ state={
 	manpower=1279121
 	buildings_max_level_factor=1.000
 	state_category=large_city
+	
 }
 
