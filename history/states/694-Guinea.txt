@@ -11,9 +11,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			1807 = {
-				naval_base = 1
-			}
 		}
 	}
 	provinces={

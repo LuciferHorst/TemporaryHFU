@@ -1075,7 +1075,6 @@ focus_tree = {
 				ideology = socialism
 				traits = {
 					reluctant_interventionist
-					stout_defender
 				}
 			}
 			set_country_flag = { flag = FRA_popular_front_cooldown value = 1 days = 360 }
@@ -1503,57 +1502,26 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = FRA_naval_rearmament
-		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 30
+		id = FRA_colonial_naval_bases
+		icon = GFX_goal_generic_build_navy
+		x = 29
 		y = 0
 		cost = 5
 		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		complete_tooltip = {
-		}
 		completion_reward = {
-			navy_experience = 25
-			466 = {
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = dockyard
-					level = 4
-					instant_build = yes
-				}
-				set_state_flag = FRA_naval_rearmament_2NB
-			}
-		}
-	}
-	focus = {
-		id = FRA_colonial_naval_bases
-		icon = GFX_goal_generic_build_navy
-		prerequisite = { focus = FRA_naval_rearmament }
-		x = -3
-		y = 1
-		relative_position_id = FRA_naval_rearmament
-		cost = 5
-		available_if_capitulated = yes
-		completion_reward = {
-			423 = {
+			687 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = naval_base
-						level = 3
-						province =1090
+						level = 5
+						province =5590
 						instant_build = yes
 					}
-					set_state_flag = FRA_colonial_naval_bases
-				}
-			}
-			264 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
-						type = naval_base
-						level = 3
-						province =4606
+						type = coastal_bunker
+						level = 5
+						province =5590
 						instant_build = yes
 					}
 					set_state_flag = FRA_colonial_naval_bases
@@ -1568,16 +1536,10 @@ focus_tree = {
 						province =4749
 						instant_build = yes
 					}
-					set_state_flag = FRA_colonial_naval_bases
-				}
-			}
-			274 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
-						type = naval_base
-						level = 3
-						province =4130
+						type = coastal_bunker
+						level = 5
+						province =4749
 						instant_build = yes
 					}
 					set_state_flag = FRA_colonial_naval_bases
@@ -1586,24 +1548,27 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = FRA_develop_colonial_dockyards
+		id = FRA_naval_rearmament
 		icon = GFX_goal_generic_construct_naval_dockyard
 		prerequisite = { focus = FRA_colonial_naval_bases }
+		relative_position_id = FRA_colonial_naval_bases
 		x = 0
 		y = 1
-		relative_position_id = FRA_colonial_naval_bases
 		cost = 5
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
+		complete_tooltip = {
+		}
 		completion_reward = {
+			navy_experience = 200
 			466 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = dockyard
-					level = 3
+					level = 4
 					instant_build = yes
 				}
-				set_state_flag = FRA_colonial_dockyards
+				set_state_flag = FRA_naval_rearmament_2NB
 			}
 		}
 	}
@@ -1640,7 +1605,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_capital_ship_focus
-				bonus = 1.0
+				bonus = 3
 				uses = 2
 				category = bb_tech
 				category = bc_tech
@@ -1659,7 +1624,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_carrier_focus
-				bonus = 1.0
+				bonus = 3
 				uses = 2
 				category = cv_tech
 			}
@@ -1758,8 +1723,8 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_naval_doctrine
-				bonus = 1.0
-				uses = 2
+				bonus = 6
+				uses = 5
 				category = naval_doctrine
 			}
 		}
