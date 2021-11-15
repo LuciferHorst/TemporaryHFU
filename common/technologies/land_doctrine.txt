@@ -1866,7 +1866,7 @@ technologies = {
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
-		}		
+		}	
 		terrain_penalty_reduction = 0.1
 		folder = {
 			name = land_doctrine_folder

@@ -1085,16 +1085,16 @@ focus_tree = {
 		completion_reward = {
 			air_experience = 100
 			add_tech_bonus = {
-				name = JAP_fighter_modernization
+				name = JAP_heavy_fighter_modernization
 				bonus = 1.0
 				uses = 2
-				category = light_fighter
+				category = cat_heavy_fighter
 			}
 			add_tech_bonus = {
 				name = JAP_fighter_modernization
 				bonus = 1.0
-				uses = 1
-				category = cat_heavy_fighter
+				uses = 2
+				category = light_fighter
 			}
 		}
 	}

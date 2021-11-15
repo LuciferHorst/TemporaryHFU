@@ -101,6 +101,7 @@
 		}
 		bypass = {
 		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_war_support = 0.1
 			add_ideas = war_economy
@@ -868,7 +869,6 @@
 		prerequisite = { focus = GER_four_year_plan }
 		completion_reward = { 
 		add_political_power = 150
-	
 		}
 	}	
 	focus = {
@@ -879,6 +879,7 @@
 		y = 1
 		relative_position_id = GER_four_year_plan
 		prerequisite = { focus = GER_four_year_plan }
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = { 
 			add_tech_bonus = {
 			name = Construction
@@ -903,6 +904,7 @@
 		ai_will_do = {
 			factor = 9
 		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_tech_bonus = {
 				name = GER_autarky
@@ -1000,6 +1002,7 @@
 			mutually_exclusive = { focus = GER_rethink_our_old_plans }
 			relative_position_id = GER_extra_tech_slot
 			prerequisite = { focus = GER_extra_tech_slot }
+			search_filters = { FOCUS_FILTER_INDUSTRY }
 			completion_reward = { 
 				add_ideas = GER_hermann_goering_plan1
 		}
@@ -1013,6 +1016,7 @@
 		mutually_exclusive = { focus = GER_hermann_goering_plan }
 		relative_position_id = GER_extra_tech_slot
 		prerequisite = { focus = GER_extra_tech_slot }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = { 
 		add_ideas = GER_rethink_our_old_plans1
 							}
