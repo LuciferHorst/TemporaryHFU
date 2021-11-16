@@ -118,7 +118,7 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = armored_car_equipment
-	amount = 800
+	amount = 600
 	producer =ITA
 }
 add_equipment_to_stockpile = {

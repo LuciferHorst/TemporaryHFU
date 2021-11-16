@@ -126,7 +126,7 @@ add_ideas = {
 set_convoys = 1200
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
-	amount = 1000
+	amount = 1600
 	producer = ENG
 }
 add_equipment_to_stockpile = {
@@ -136,7 +136,7 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = light_tank_equipment_2
-	amount = 1000
+	amount = 800
 	producer = ENG
 }
 add_equipment_to_stockpile = {
@@ -150,23 +150,23 @@ add_equipment_to_stockpile = {
 	producer = ENG
 }
 add_equipment_to_stockpile = {
+	type = armored_car_equipment
+	amount = 500
+	producer =ENG
+}
+add_equipment_to_stockpile = {
 	type = infantry_equipment_1
 	amount = 40000
 	producer = ENG
 }
 add_equipment_to_stockpile = {
 	type = support_equipment_1
-	amount = 1000
+	amount = 1500
 	producer = ENG
 }
 add_equipment_to_stockpile = {
 	type = light_tank_destroyer_equipment_2
 	amount = 200
-	producer = ENG
-}
-add_equipment_to_stockpile = {
-	type = light_tank_equipment_1
-	amount = 400
 	producer = ENG
 }
 add_equipment_to_stockpile = {
@@ -176,7 +176,7 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = nav_bomber_equipment_1
-	amount = 469
+	amount = 500
 	producer = ENG
 }
 add_equipment_to_stockpile = {
