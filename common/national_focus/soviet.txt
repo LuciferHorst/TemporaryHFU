@@ -727,7 +727,7 @@ focus = {
 		prerequisite = { focus = SOV_great_patriotic_general  }
 		prerequisite = { focus = SOV_barb_2  }
 		prerequisite = { focus = SOV_wartime_industry  }
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 10
 			modifier = {
@@ -736,7 +736,7 @@ focus = {
 			}
 		}
 		available = {
-			date>1942.6.1
+			date>1942.7.1
 		}
 		bypass = {
 		}
@@ -2159,7 +2159,7 @@ focus = {
 		x = 0
 		y = 6
 		relative_position_id = SOV_move_industry_to_urals
-		cost = 5
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -2220,7 +2220,8 @@ focus = {
 		}
 		add_tech_bonus = {
 			name = mech_army_bonus
-				bonus = 1.0
+				bonus = 1.1
+				ahead_reduction = 0.5
 				uses = 1
 				technology = mechanised_infantry2
 		}

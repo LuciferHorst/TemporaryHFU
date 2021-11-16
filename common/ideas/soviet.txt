@@ -432,7 +432,7 @@ ideas = {
 			}
 			picture = generic_research_bonus
 			modifier = {
-				research_speed_factor = 0.075
+				research_speed_factor = 0.1
 			}
 		}
 		socialist_science_focus = {
@@ -911,7 +911,7 @@ ideas = {
 				has_government = communism
 			}
 			modifier = {
-				stability_factor = 0.10
+				stability_factor = 0.15
 			}
 		}
 	}
