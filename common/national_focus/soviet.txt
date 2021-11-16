@@ -2154,12 +2154,12 @@ focus = {
 		prerequisite = { focus = SOV_great_patriotic_general }
 		available = {
 			date > 1942.08.15
-			date < 1942.11.23
+			date < 1942.12.23
 		}
 		x = 0
 		y = 6
 		relative_position_id = SOV_move_industry_to_urals
-		cost = 1
+		cost = 4
 		ai_will_do = {
 			factor = 1
 		}
