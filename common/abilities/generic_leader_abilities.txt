@@ -57,7 +57,7 @@ ability = {
 			fortification_damage = 1.0
 			fortification_collateral_chance = 1.0
 		}
-		cost = 0.1
+		cost = 0.01
 		duration = 168
 
 

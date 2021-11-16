@@ -1989,7 +1989,7 @@ focus_tree = {
 					}
 			add_resource = {
 					type = aluminium
-					amount = -30
+					amount = -40
 					state = 602
 					}
 				}
@@ -2135,11 +2135,6 @@ focus = {
 		id = uk_exploit_south_africa_focus
 		prerequisite = { focus = uk_commonwealth_focus }
 		mutually_exclusive = { focus = uk_south_africa_focus }
-		ai_will_do = {
-			factor = 9
-		}
-		available = {
-		}
 		bypass = {
 			OR = {
 				SAF = { exists = no }
@@ -2208,14 +2203,25 @@ focus = {
 		}
 		completion_reward = {
 			121 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
-			}}
+			add_resource = {
+				type = chromium
+				amount = 30
+				state = 121
+				}
+			add_resource = {
+				type = chromium
+				amount = -50
+				state = 267
+				}
+			                  }
+		}
 	focus = {
 		id = ENG_imperial_conference
 		prerequisite = { 

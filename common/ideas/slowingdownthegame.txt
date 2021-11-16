@@ -57,7 +57,7 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				air_attack_factor =-0.4
+				air_attack_factor =-0.5
 			}
 			equipment_bonus = {
 				CAS_equipment = {

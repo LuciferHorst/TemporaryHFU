@@ -1351,7 +1351,7 @@ leader_traits = {
 	}
     infrastructure_expert = {
 		sprite = 13
-		production_speed_infrastructure_factor = 0.30
+		production_speed_infrastructure_factor = 0.40
 		ai_will_do = {
 			factor = 1
 		}

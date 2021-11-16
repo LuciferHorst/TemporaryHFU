@@ -61,6 +61,20 @@ ideas = {
 			modifier = {
 			research_speed_factor = 0.15
 			global_building_slots_factor = 0.1
+			conscription = 0.025
+			}
+		}
+		ITA_manpower = {
+			removal_cost = -1
+			allowed = {
+				always = no # Added via focus
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_goal_generic_axis_build_infantry
+			modifier = {
+			conscription  = 0.05
 			}
 		}
 		ITA_infantry1 = {
