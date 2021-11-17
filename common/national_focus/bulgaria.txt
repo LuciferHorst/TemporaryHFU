@@ -974,10 +974,10 @@ focus_tree = {
 	focus = {
 		id = BUL_secret_weapons
 		icon = GFX_goal_generic_secret_weapon
-		prerequisite = { focus=BUL_Tank_Development focus = BUL_license_german_equipment }
-		x = 1
+		prerequisite = { focus= BUL_Modern_Weapons }
+		x = 0
 		y = 1
-		relative_position_id = BUL_Tank_Development
+		relative_position_id = BUL_Modern_Weapons
 		cost = 10
 		available_if_capitulated = yes
 		completion_reward = {
@@ -1015,6 +1015,27 @@ focus_tree = {
 			add_relation_modifier = {
 				target = GER
 				modifier = ROM_license_german_equipment
+			}
+		}
+	}
+	focus = {
+		id = BUL_tank_3
+		available = {
+		}
+		prerequisite = { focus = BUL_license_german_equipment focus = BUL_Tank_Development }
+		icon = GFX_goal_generic_build_tank
+		x = -2
+		y = 1
+		relative_position_id = BUL_license_german_equipment
+		cost = 5
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				ahead_reduction = 1
+				uses = 1
+				technology = advanced_medium_tank
 			}
 		}
 	}

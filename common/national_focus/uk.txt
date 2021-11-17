@@ -3011,13 +3011,14 @@ focus = {
 			factor = 1
 		}
 		completion_reward = {
+			custom_effect_tooltip = "This focus will give everyone in the CW a bonus for medium 3"
 			every_country={limit={is_in_faction_with=ENG}
 			army_experience=100
 			add_tech_bonus = {
-				name = armor_bonus
 				bonus = 1
+				ahead_reduction = 0.5
 				uses = 1
-				category = armor
+				technology = advanced_medium_tank
 			}
 			}
 			swap_ideas = {
