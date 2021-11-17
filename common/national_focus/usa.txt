@@ -2475,7 +2475,6 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			date>1941.1.1
 		}
 		bypass = {
 		}
@@ -2486,13 +2485,13 @@ focus_tree = {
 			air_experience = 200
 			add_tech_bonus = {
 				name = fighter_command_focus
-				bonus = 2
+				bonus = 1
 				uses = 1
 				technology= fighter3
 			}
 			add_tech_bonus = {
 				name = fighter_command_focus
-				bonus = 2
+				bonus = 1
 				uses = 1
 				technology= fighter4
 			}

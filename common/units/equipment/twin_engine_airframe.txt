@@ -302,7 +302,7 @@ equipments = {
     		naval_strike_targetting = 6
     	}
 		tac_bomber_equipment_4 = {
-    		year = 1942
+    		year = 1943
     		can_convert_from = {
     			tac_bomber_equipment_4_f 
     		}
@@ -327,7 +327,7 @@ equipments = {
     		naval_strike_targetting = 6
     	}
     	tac_bomber_equipment_4_f = {
-    		year = 1942
+    		year = 1943
     		can_convert_from = {
     			tac_bomber_equipment_4
     		}
@@ -565,7 +565,7 @@ equipments = {
     		naval_strike_targetting = 10
     	}
 		heavy_fighter_equipment_4 = {
-    		year = 1942
+    		year = 1943
     		can_convert_from = {
     			heavy_fighter_equipment_4_f 
     		}
@@ -588,7 +588,7 @@ equipments = {
     		naval_strike_targetting = 10
     	}
     	heavy_fighter_equipment_4_f = {
-    		year = 1942
+    		year = 1943
     		can_convert_from = {
     			heavy_fighter_equipment_4 
     		}

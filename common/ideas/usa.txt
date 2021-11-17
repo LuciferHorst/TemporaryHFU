@@ -245,12 +245,19 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			cancel = {
-				has_war_with = JAP
-			}
 			removal_cost = -1
 			modifier = {
 				production_speed_synthetic_refinery_factor = -1.2
+			}
+		}
+		reliance_on_natural_rubber2 = {
+			picture = rubber
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_synthetic_refinery_factor = -0.4
 			}
 		}
 		great_depression = {

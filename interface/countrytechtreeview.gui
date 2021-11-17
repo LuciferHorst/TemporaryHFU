@@ -2525,7 +2525,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
-				text = " 1941 planes are locked behind June 1939, while 1942 planes are locked behind June 1941"
+				text = " 1941 planes are locked behind June 1939, while 1943 planes are locked behind June 1941"
 				maxWidth = 1500
 				maxHeight = 62
 				format = center
@@ -2538,7 +2538,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
-				text = "1942"
+				text = "1943"
 				maxWidth = 170
 				maxHeight = 32
 				format = left

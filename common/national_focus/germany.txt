@@ -2549,10 +2549,10 @@ focus = {
 		completion_reward = {
 			add_timed_idea={ idea = GER_barbarossa_3 days = 60}
 			hidden_effect = {
-				ROM = {add_timed_idea={ idea = GER_barbarossa_3 days = 30}}
-				HUN = {add_timed_idea={ idea = GER_barbarossa_3 days = 30}}
-				BUL = {add_timed_idea={ idea = GER_barbarossa_3 days = 30}}
-				SPR = {add_timed_idea={ idea = GER_barbarossa_3 days = 30}}
+				ROM = {add_timed_idea={ idea = GER_barbarossa_3 days = 60}}
+				HUN = {add_timed_idea={ idea = GER_barbarossa_3 days = 60}}
+				BUL = {add_timed_idea={ idea = GER_barbarossa_3 days = 60}}
+				SPR = {add_timed_idea={ idea = GER_barbarossa_3 days = 60}}
 			}
 		}
 	}
@@ -3022,16 +3022,43 @@ focus = {
 		}
 	}
 	focus = {
+		id = GER_summer_defensive
+		mutually_exclusive = { focus = GER_winter_attack }
+		prerequisite = { focus = GER_north focus = GER_south  }
+		icon = GFX_focus_GER_winter_of_1941
+		available = {
+			NOT = {has_idea = GER_blau }
+			has_war_with = SOV
+		}
+		relative_position_id = GER_blau
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = no
+		completion_reward = {
+			add_timed_idea={ idea = GER_barbarossa_4 days = 90}
+			hidden_effect = {
+				ROM = {add_timed_idea={ idea = GER_barbarossa_4 days = 90}}
+				HUN = {add_timed_idea={ idea = GER_barbarossa_4 days = 90}}
+				BUL = {add_timed_idea={ idea = GER_barbarossa_4 days = 90}}
+				SPR = {add_timed_idea={ idea = GER_barbarossa_4 days = 90}}
+			}
+		}
+	}
+	focus = {
 		id = GER_unternehmen_zitadelle
 		icon = GFX_focus_GER_unternehmen_zitadelle
-		prerequisite = { focus = GER_north focus = GER_south}
+		prerequisite = { focus = GER_summer_defensive }
 		icon = GFX_focus_ger_reichskommisariats
 		available = {
 			date > 1943.3.15
 			NOT={has_idea=GER_blau}
 		}
 		x = 1
-		y = 1
+		y = 2
 		relative_position_id = GER_north
 		cost = 5
 		ai_will_do = {

@@ -2,7 +2,7 @@ state={
 	id=301
 	name="STATE_334"
 	resources={
-		rubber=30
+		rubber=20
 	}
 	history={
 		owner = INS
@@ -14,7 +14,7 @@ state={
 			1261 5
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			air_base = 5
 			9413 = {
 				naval_base = 3

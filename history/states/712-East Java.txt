@@ -17,6 +17,10 @@ state={
 			dockyard = 1
 			air_base = 5
 			4320 = {
+				naval_base = 6
+
+			}
+			11156 = {
 				naval_base = 3
 
 			}

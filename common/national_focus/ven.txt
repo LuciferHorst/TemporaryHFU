@@ -38,6 +38,106 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = VEN_rubber_railroad
+		icon = GFX_goal_generic_consumer_goods
+		x = 5
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+		available = { 
+			date > 1941.1.1
+			 }
+			 completion_reward = { 
+				 USA = { 
+					swap_ideas = { 
+					remove_idea = reliance_on_natural_rubber
+					add_idea = reliance_on_natural_rubber2
+				}
+			 }
+			 ENG = { 
+				swap_ideas = { 
+				remove_idea = reliance_on_natural_rubber
+				add_idea = reliance_on_natural_rubber2
+			}
+		}
+			CAN= { 
+				swap_ideas = { 
+				remove_idea = reliance_on_natural_rubber
+				add_idea = reliance_on_natural_rubber2
+			}
+		 }
+		 SAF = { 
+			swap_ideas = { 
+			remove_idea = reliance_on_natural_rubber
+			add_idea = reliance_on_natural_rubber2
+		}
+	 }
+	 RAJ = { 
+		swap_ideas = { 
+		remove_idea = reliance_on_natural_rubber
+		add_idea = reliance_on_natural_rubber2
+	}
+		 }
+		 AST = { 
+			swap_ideas = { 
+			remove_idea = reliance_on_natural_rubber
+			add_idea = reliance_on_natural_rubber2
+		}
+	 }
+	 FRA = { 
+		swap_ideas = { 
+		remove_idea = reliance_on_natural_rubber
+		add_idea = reliance_on_natural_rubber2
+	}
+ }
+}
+}
+ focus = {
+	id = VEN_rubber_railroad
+	icon = GFX_goal_generic_consumer_goods
+	x = 5
+	y = 3
+	cost = 1
+	ai_will_do = {
+		factor = 1
+	}
+	available_if_capitulated = yes
+	available = { 
+		date > 1941.10.1
+		 }
+		 completion_reward = { 
+			 USA = { 
+				remove_ideas = reliance_on_natural_rubber2
+			}
+		 
+		 ENG = { 
+			remove_ideas = reliance_on_natural_rubber2
+		}
+	
+		CAN= { 
+			remove_ideas = reliance_on_natural_rubber2
+		}
+	 
+	 SAF = { 
+		remove_ideas = reliance_on_natural_rubber2
+	}
+ 
+ RAJ = { 
+	remove_ideas = reliance_on_natural_rubber2
+}
+	 AST = { 
+		remove_ideas = reliance_on_natural_rubber2
+ }
+ FRA = { 
+	remove_ideas = reliance_on_natural_rubber2
+}
+
+			}
+		}
+	focus = {
 		id = VEN_hurensohn_sealion_2
 		icon = GFX_goal_generic_consumer_goods
 		x = 12
