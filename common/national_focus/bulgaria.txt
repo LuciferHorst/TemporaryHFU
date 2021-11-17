@@ -972,6 +972,58 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = BUL_Advanced_Artillery
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = BUL_Infantry_Support }
+		x = 0
+		y = 1
+		relative_position_id = BUL_Infantry_Support
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = arty_bonus
+				bonus = 1
+				uses = 2
+				category = artillery
+			}
+			add_tech_bonus = {
+				name = arty_bonus
+				bonus = 1
+				uses = 2
+				category = cat_anti_tank
+			}
+		}
+	}
+	focus = {
+		id = BUL_Modern_Weapons
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BUL_Advanced_Artillery }
+		x = 0
+		y = 1
+		relative_position_id =BUL_Advanced_Artillery
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = SAF_sa_engineer_corps
+				bonus = 1
+				uses = 2
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+	focus = {
 		id = BUL_secret_weapons
 		icon = GFX_goal_generic_secret_weapon
 		prerequisite = { focus= BUL_Modern_Weapons }
@@ -1036,58 +1088,6 @@ focus_tree = {
 				ahead_reduction = 1
 				uses = 1
 				technology = advanced_medium_tank
-			}
-		}
-	}
-	focus = {
-		id = BUL_Advanced_Artillery
-		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = BUL_Infantry_Support }
-		x = 0
-		y = 1
-		relative_position_id = BUL_Infantry_Support
-		cost = 10
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = arty_bonus
-				bonus = 1
-				uses = 2
-				category = artillery
-			}
-			add_tech_bonus = {
-				name = arty_bonus
-				bonus = 1
-				uses = 2
-				category = cat_anti_tank
-			}
-		}
-	}
-	focus = {
-		id = BUL_Modern_Weapons
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BUL_Advanced_Artillery }
-		x = 0
-		y = 1
-		relative_position_id =BUL_Advanced_Artillery
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		available = {
-		}
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = SAF_sa_engineer_corps
-				bonus = 1
-				uses = 2
-				category = infantry_weapons
-				category = artillery
 			}
 		}
 	}

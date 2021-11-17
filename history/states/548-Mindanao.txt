@@ -5,8 +5,7 @@ state={
 	state_category = rural
 	resources={
 		oil = 10
-		rubber = 10
-		
+		rubber = 15
 	}
 	history={
 		owner = USA
@@ -15,7 +14,7 @@ state={
 			air_base = 5
 			infrastructure = 4
 			3972 = {
-				naval_base = 10
+				naval_base = 15
 			}
 		}
 		victory_points = {
