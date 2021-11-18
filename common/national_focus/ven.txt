@@ -96,7 +96,7 @@ focus_tree = {
 }
 }
  focus = {
-	id = VEN_rubber_railroad
+	id = VEN_rubber_railroad_two
 	icon = GFX_goal_generic_consumer_goods
 	x = 5
 	y = 3

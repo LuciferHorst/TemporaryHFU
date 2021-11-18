@@ -32,7 +32,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4790;1979;impassable;-1;-1;-1;-1;-1;;Borneo-15
 1925;3967;impassable;-1;-1;-1;-1;-1;;Borneo-16
 1925;1349;impassable;-1;-1;-1;-1;-1;;Borneo-17
-1925;6887;impassable;-1;-1;-1;-1;-1;;Borneo-18
+1925;6877;impassable;-1;-1;-1;-1;-1;;Borneo-18
 1925;11125;impassable;-1;-1;-1;-1;-1;;Borneo-19
 1925;1280;impassable;-1;-1;-1;-1;-1;;Borneo-20
 1925;9445;impassable;-1;-1;-1;-1;-1;;Borneo-21

@@ -3023,7 +3023,6 @@ focus = {
 	}
 	focus = {
 		id = GER_summer_defensive
-		mutually_exclusive = { focus = GER_winter_attack }
 		prerequisite = { focus = GER_north focus = GER_south  }
 		icon = GFX_focus_GER_winter_of_1941
 		available = {

@@ -1341,6 +1341,75 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = uk_defend_ceylon
+		prerequisite = { focus = uk_eri_focus }
+		available = {
+			388 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+		icon = GFX_goal_generic_construct_military
+		x = 0
+		y = 3
+		relative_position_id = uk_protect_suez
+		cost = 2
+		completion_reward = {
+			388 = {
+				set_building_level = {
+					type = naval_base
+					level = 10
+					province =6725
+					instant_build = yes
+				}
+				set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				set_building_level = {
+					type = air_base
+					level = 10
+					instant_build = yes
+				}
+				set_building_level = {
+					type = coastal_bunker
+					level = 3
+					province =6725
+					instant_build = yes
+				}
+				set_building_level = {
+					type = coastal_bunker
+					level = 2
+					province =6809
+					instant_build = yes
+				}
+				set_building_level = {
+					type = coastal_bunker
+					level = 2
+					province =9405
+					instant_build = yes
+				}
+				set_building_level = {
+					type = coastal_bunker
+					level = 2
+					province =11139
+					instant_build = yes
+				}
+				set_building_level = {
+					type = coastal_bunker
+					level = 2
+					province =3951
+					instant_build = yes
+				}
+				set_building_level = {
+					type = coastal_bunker
+					level = 3
+					province =9378
+					instant_build = yes
+				}
+			}
+		}
+			}
+		
+	focus = {
 		id = uk_malta_focus
 		prerequisite = { focus = uk_mediterranean_focus }
 		available = {
