@@ -2579,12 +2579,6 @@ focus = {
 						province =11748
 						instant_build = yes
 					}
-					set_building_level = {
-						type = coastal_bunker
-						level = 5
-						province =10374
-						instant_build = yes
-					}
 				}
 			}
 			121 = {
