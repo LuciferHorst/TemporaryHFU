@@ -1137,7 +1137,7 @@ special_projects = {
 			tag = FIN
 		}}
 	    available = { 
-		    date > 1941.01.1
+		    date > 1940.10.1
 		}
 		fire_only_once = yes
 		complete_effect = {
