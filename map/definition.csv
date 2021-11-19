@@ -10745,7 +10745,7 @@
 10744;172;123;207;land;false;desert;1
 10745;172;126;172;land;false;mountain;1
 10746;172;126;227;land;false;forest;2
-10747;172;129;87;land;false;plains;1
+10747;172;129;87;land;true;urban;1
 10748;172;129;137;land;false;hills;1
 10749;172;132;52;land;false;mountain;1
 10750;172;132;157;land;true;hills;1

@@ -2,7 +2,7 @@ state={
 	id=309
 	name="STATE_342"
 	manpower = 1
-	state_category = wasteland
+	state_category = rural
 	history={
 		owner = ENG
 		add_state_modifier = {modifier = { production_speed_air_base_factor = -0.95 } }

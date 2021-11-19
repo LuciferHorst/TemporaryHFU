@@ -452,11 +452,11 @@ focus_tree = {
 		complete_tooltip = {
 		}
 		completion_reward = {
-			714 = {
-				add_building_construction = {
-					type = air_base
-				level = 5
-				instant_build = yes
+		312 = {
+			add_building_construction = {
+			type = air_base
+			level = 5
+			instant_build = yes
 			}
 		}
 		447 = {

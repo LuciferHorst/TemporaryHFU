@@ -96,20 +96,6 @@ ideas = {
 				production_speed_buildings_factor = 0.10
 			}
 		}
-		SOV_manual_labor = {
-			removal_cost = -1
-			allowed = {
-				always = no # Added via focus
-			}
-			allowed_civil_war = {
-				has_government = communism
-			}
-			picture = generic_production_bonus
-			modifier = {
-				consumer_goods_factor = -0.02
-				production_speed_industrial_complex_factor = 0.15
-			}
-		}
 		SOV_research_institutes1 = {
 			removal_cost = -1
 			allowed = {
@@ -161,6 +147,20 @@ ideas = {
 			}
 			research_bonus = {
 				land_doctrine = -0.15
+			}
+		}
+		SOV_manual_labor = {
+			removal_cost = -1
+			allowed = {
+				always = no # Added via focus
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			picture = generic_production_bonus
+			modifier = {
+				consumer_goods_factor = -0.02
+				production_speed_industrial_complex_factor = 0.15
 			}
 		}
 		SOV_kazanspawnin = {

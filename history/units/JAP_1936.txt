@@ -17,6 +17,26 @@
 	}
 }
 division_template = {
+	name = "Chuton-chi Shidan"
+	division_names_group = JAP_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+division_template = {
 	name = "Hohei Shidan"
 	division_names_group = JAP_INF_01
 	regiments = {
@@ -60,8 +80,9 @@ division_template = {
 		light_armor = { x = 1 y = 3 }
 		light_armor = { x = 2 y = 0 }
 		light_armor = { x = 2 y = 1 }
-		light_armor = { x = 2 y = 2 }
-		light_armor = { x = 2 y = 3 }
+		light_tank_destroyer_brigade  = { x = 2 y = 2 }
+		light_sp_anti_air_brigade  = { x = 2 y = 3 }
+		light_sp_anti_air_brigade  = { x = 2 y = 4 }
 		motorized = { x = 3 y = 0 }
 		motorized = { x = 3 y = 1 }
 		motorized = { x = 3 y = 2 }
@@ -77,25 +98,6 @@ division_template = {
 		artillery = { x = 0 y = 2 }
 	}
 	priority = 2
-}
-division_template = {
-	name = "Jidousha Shidan"
-	division_names_group = JAP_MOT_01
-	regiments = {
-		motorized = { x = 0 y = 0 }
-		motorized = { x = 0 y = 1 }
-		motorized = { x = 0 y = 2 }
-		motorized = { x = 0 y = 3 }
-		motorized = { x = 0 y = 4 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-		motorized = { x = 1 y = 3 }
-		motorized = { x = 1 y = 4 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-	}
 }
 division_template = {
 	name = "Rikusentai"
@@ -122,27 +124,71 @@ division_template = {
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
-		recon = { x = 0 y = 2  }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
 	}
 	priority = 2
 }
 division_template = {
-	name = "Chuton-chi Shidan"
-	division_names_group = JAP_GAR_01
+	name = "Mountaineer Division"
+	division_names_group = JAP_MAR_01
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 0 y = 3 }
-		infantry = { x = 0 y = 4 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 1 y = 3 }
-		infantry = { x = 1 y = 4 }
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 1 y = 3 }
+		artillery_brigade = { x = 1 y = 4 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
+		mountaineers = { x = 3 y = 0 }
+		mountaineers = { x = 3 y = 1 }
+		mountaineers = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
 	}
-	priority = 0
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		anti_air = {x = 0 y = 3 }
+	}
+}
+division_template = {
+	name = "Shocktroopers"
+	division_names_group = JAP_MAR_01
+	regiments = {
+		shocktroop = { x = 0 y = 0 }
+		shocktroop = { x = 0 y = 1 }
+		shocktroop = { x = 0 y = 2 }
+		shocktroop = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+		shocktroop = { x = 1 y = 0 }
+		shocktroop = { x = 1 y = 1 }
+		shocktroop = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		artillery_brigade = { x = 1 y = 4 }
+		shocktroop = { x = 2 y = 0 }
+		shocktroop = { x = 2 y = 1 }
+		shocktroop = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
+		anti_air_brigade = { x = 2 y = 4 }
+		shocktroop = { x = 3 y = 0 }
+		shocktroop = { x = 3 y = 1 }
+		shocktroop = { x = 3 y = 2 }
+		anti_tank_brigade = { x = 3 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		anti_air = { x = 0 y = 3 }
+	}
 }
 units = {
 	division = {
