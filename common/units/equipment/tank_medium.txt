@@ -17,7 +17,7 @@
     			tank_gun_upgrade
     		}
     		#Misc Abilities
-    		maximum_speed = 9
+    		maximum_speed = 8
     		reliability = 0.8
     		#Defensive Abilities
     		defense = 6
@@ -73,7 +73,7 @@
     			medium_tank_equipment_2_f
     		}
     		#Misc Abilities
-    		maximum_speed = 9
+    		maximum_speed = 8
     		#Defensive Abilities
     		defense = 7
     		breakthrough = 51
@@ -103,7 +103,7 @@
     			medium_tank_equipment_2_f
     		}
     		#Misc Abilities
-    		maximum_speed = 9
+    		maximum_speed = 8
     		#Defensive Abilities
     		defense = 7
     		breakthrough = 51
@@ -133,7 +133,7 @@
     			medium_tank_equipment_3_f
     		}
     		#Misc Abilities
-    		maximum_speed = 10
+    		maximum_speed = 9
     		#Defensive Abilities
     		defense = 8
     		breakthrough = 57
@@ -163,7 +163,7 @@
     			medium_tank_equipment_3
     		}
     		#Misc Abilities
-    		maximum_speed = 10
+    		maximum_speed = 9
     		#Defensive Abilities
     		defense = 8
     		breakthrough = 57
@@ -201,7 +201,7 @@
     			tank_art_upgrade
     		}
     		#Misc Abilities
-    		maximum_speed = 9
+    		maximum_speed = 8
     		reliability = 0.8
     		#Defensive Abilities
     		defense = 5
@@ -261,7 +261,7 @@
     			medium_tank_artillery_equipment_2_f
     		}
     		#Misc Abilities
-    		maximum_speed = 9
+    		maximum_speed = 8
     		#Defensive Abilities
     		defense = 6
     		breakthrough = 15
@@ -292,7 +292,7 @@
     			medium_tank_artillery_equipment_2
     		}
     		#Misc Abilities
-    		maximum_speed = 10
+    		maximum_speed = 8
     		#Defensive Abilities
     		defense = 6
     		breakthrough = 15
@@ -324,7 +324,7 @@
     			medium_tank_artillery_equipment_3_f
     		}
     		#Misc Abilities
-    		maximum_speed = 10
+    		maximum_speed = 9
     		#Defensive Abilities
     		defense = 7
     		breakthrough = 18
@@ -354,7 +354,7 @@
     			medium_tank_artillery_equipment_3
     		}
     		#Misc Abilities
-    		maximum_speed = 10
+    		maximum_speed = 8
     		#Defensive Abilities
     		defense = 7
     		breakthrough = 18
@@ -390,7 +390,7 @@
     			tank_at_upgrade
     		}
     		#Misc Abilities
-    		maximum_speed = 9
+    		maximum_speed = 8
     		reliability = 0.8
     		#Defensive Abilities
     		defense = 0
@@ -450,7 +450,7 @@
     			medium_tank_destroyer_equipment_2_f
     		}
     		#Misc Abilities
-    		maximum_speed = 9
+    		maximum_speed = 8
     		#Defensive Abilities
     		defense = 0
     		breakthrough = 23
@@ -483,7 +483,7 @@
     			medium_tank_destroyer_equipment_2
     		}
     		#Misc Abilities
-    		maximum_speed = 9
+    		maximum_speed = 8
     		#Defensive Abilities
     		defense = 0
     		breakthrough = 23
@@ -517,7 +517,7 @@
     			medium_tank_destroyer_equipment_3_f
     		}
     		#Misc Abilities
-    		maximum_speed = 10
+    		maximum_speed = 9
     		#Defensive Abilities
     		defense = 0
     		breakthrough = 28
@@ -550,7 +550,7 @@
     			medium_tank_destroyer_equipment_3
     		}
     		#Misc Abilities
-    		maximum_speed = 10
+    		maximum_speed = 9
     		#Defensive Abilities
     		defense = 0
     		breakthrough = 28
@@ -588,7 +588,7 @@
     			tank_aa_upgrade
     		}
     		#Misc Abilities
-    		maximum_speed = 9
+    		maximum_speed = 8
     		reliability = 0.8
     		#Defensive Abilities
     		defense = 2.5
@@ -646,7 +646,7 @@
     			medium_tank_aa_equipment_2_f
     		}
     		#Misc Abilities
-    		maximum_speed = 9
+    		maximum_speed = 8
     		#Defensive Abilities
     		defense = 3
     		breakthrough = 3
@@ -679,7 +679,7 @@
     			medium_tank_aa_equipment_2
     		}
     		#Misc Abilities
-    		maximum_speed = 9
+    		maximum_speed = 8
     		#Defensive Abilities
     		defense = 3
     		breakthrough = 3
@@ -712,7 +712,7 @@
     			medium_tank_aa_equipment_3_f
     		}
     		#Misc Abilities
-    		maximum_speed = 10
+    		maximum_speed = 9
     		#Defensive Abilities
     		defense = 3.5
     		breakthrough = 3.5
@@ -745,7 +745,7 @@
     			medium_tank_aa_equipment_3
     		}
     		#Misc Abilities
-    		maximum_speed = 10
+    		maximum_speed = 9
     		#Defensive Abilities
     		defense = 3.5
     		breakthrough = 3.5

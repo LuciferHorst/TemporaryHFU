@@ -5,6 +5,8 @@ state={
 	state_category = city
 	resources={
 		aluminium=3
+		steel = 15
+		tungsten = 15
 	}
 	history={
 		owner = CAN

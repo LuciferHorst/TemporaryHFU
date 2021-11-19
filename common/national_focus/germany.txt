@@ -1476,21 +1476,21 @@ focus = {
 		}
 		available_if_capitulated = no
 		completion_reward = {
-			add_war_support = -0.25
+			add_war_support = -0.2
 			add_equipment_to_stockpile = { 
-			type = infantry_equipment_1 amount = 60000 producer = GER
+			type = infantry_equipment_1 amount = 20000 producer = GER
 			}
 			add_equipment_to_stockpile = { 
-			type = artillery_equipment_1 amount = 5000 producer = GER
+			type = artillery_equipment_1 amount = 2000 producer = GER
 			}
 			add_equipment_to_stockpile = { 
-			type = anti_air_equipment_1 amount = 3200 producer = GER
+			type = anti_air_equipment_1 amount = 1000 producer = GER
 			}
 			add_equipment_to_stockpile = { 
-			type = anti_tank_equipment_1 amount = 1440 producer = GER
+			type = anti_tank_equipment_1 amount = 500 producer = GER
 			}
 			add_equipment_to_stockpile = { 
-			type = support_equipment_1 amount = 1600 producer = GER
+			type = support_equipment_1 amount = 1000 producer = GER
 			}		
 			hidden_effect={
 				division_template = {
@@ -1513,7 +1513,7 @@ focus = {
 					priority = 1
 					}}
 			64={for_loop_effect = {
-					end = 50
+					end = 20
 					create_unit = {
 						division = "name = \"Volkssturm\" division_template = \"Volkssturm\" start_experience_factor = 0.17"
 						owner = GER
@@ -1960,7 +1960,7 @@ focus = {
 				}
 				64 = {
 					for_loop_effect = {
-						end = 15
+						end = 5
 						create_unit = {
 							division = "name = \"Panzergrenadiere\" division_template = \"Panzergrenadiere\" start_experience_factor = 2.0"
 							owner = GER
@@ -2002,7 +2002,7 @@ focus = {
 				}
 				64 = {
 					for_loop_effect = {
-						end = 6
+						end = 2
 						create_unit = {
 							division = "name = \"Panzerjagd-Division\" division_template = \"Panzerjagd-Division\" start_experience_factor = 2.0"
 							owner = GER

@@ -197,7 +197,15 @@ units = {
 }
 units = {
 	division= {
-		name = "Poggers 3"
+		name = "Cutie 1"
+		location =9095
+		division_template = "Divisione Celere"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division= {
+		name = "Cutie 2"
 		location =9095
 		division_template = "Divisione Celere"
 		start_experience_factor = 0.3
