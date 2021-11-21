@@ -2166,6 +2166,9 @@ focus = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_timed_idea= {idea=SOV_uranus days=90}
+				every_country = { limit= {is_playable_country=yes check_variable = {speeches_enabled > 0 }}
+					scoped_sound_effect = "hellmarch"
+			}
 		}
 	}
 	focus = {

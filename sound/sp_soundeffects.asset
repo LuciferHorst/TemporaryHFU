@@ -8,9 +8,9 @@ soundeffect = {
 	
 }
 soundeffect = {
-	name = "marschlied_panzergrenadiere"
+	name = "ss_marschiert"
 	sounds = {
-		sound = marschlied_panzergrenadiere
+		sound = ss_marschiert
 	}
 	volume = 1
 	
@@ -115,4 +115,11 @@ soundeffect = {
 	fade_out = 30
 	fade_in  = 10
 	
+}
+soundeffect = {
+	name = "hellmarch"
+	sounds = {
+		sound = hellmarch
+	}
+	volume = 1	
 }
