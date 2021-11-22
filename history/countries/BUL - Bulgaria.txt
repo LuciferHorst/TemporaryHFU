@@ -32,6 +32,7 @@ set_technology = {
 	interwar_antitank = 1
 	interwar_antiair = 1
 	tech_recon = 1
+	tech_signal_company = 1
 }
 set_stability = 0.7
 set_war_support = 0.60

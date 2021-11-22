@@ -106,6 +106,7 @@ if = {
 		improved_light_art = 1
 		improved_light_td = 1
 		improved_light_spaa = 1
+		tech_signal_company = 1
 	}
 }
 if = {

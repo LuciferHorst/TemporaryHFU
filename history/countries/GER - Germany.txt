@@ -110,6 +110,7 @@ set_technology = {
 	fuel_refining = 1
 	heavy_fighter1 =1
 	improved_light_art = 1
+	tech_signal_company = 1
 }
 if = {
 	limit = {
