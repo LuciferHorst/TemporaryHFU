@@ -128,8 +128,7 @@ adjacency_rule={
 		}
 	}
 }
-adjacency_rule
-{
+adjacency_rule={
 	name = "Vienna-Madrid"
 	contested =
 	{
@@ -166,8 +165,7 @@ adjacency_rule
 		}
 	}
 }
-adjacency_rule
-{
+adjacency_rule={
 	name = "Amur-Khabarovsk"
 	contested =
 	{
@@ -204,8 +202,7 @@ adjacency_rule
 		}
 	}
 }
-adjacency_rule
-{
+adjacency_rule={
 	name = "SUEZ_CANAL"
 	contested =
 	{
@@ -250,8 +247,7 @@ adjacency_rule
 	icon =10936
 	offset = { 1 0 -6 }
 }
-adjacency_rule
-{
+adjacency_rule={
 	name = "GIBRALTAR_STRAIT"
 	contested =
 	{
@@ -297,8 +293,7 @@ adjacency_rule
 		}
 	}
 }
-adjacency_rule
-{
+adjacency_rule={
 	name = "ADEN_STRAIT"
 	contested =
 	{
@@ -333,8 +328,7 @@ adjacency_rule
 	offset = { -10.0 0.0 7.0 }
 	
 }
-adjacency_rule
-{
+adjacency_rule={
 	name = "DANISH_BELTS_STRAIT"
 	contested =
 	{
@@ -368,8 +362,7 @@ adjacency_rule
 	icon =2274
 	offset = { -26 0 -13 }
 }
-adjacency_rule
-{
+adjacency_rule={
 	name = "PANAMA_CANAL"
 	contested =
 	{
@@ -410,8 +403,7 @@ adjacency_rule
 	icon =7058
 	offset = { -3 0 -2 }
 }
-adjacency_rule
-{
+adjacency_rule={
 	name = "BOSPHORUS_STRAIT"
 	contested =
 	{
@@ -445,8 +437,7 @@ adjacency_rule
 	icon =9037
 	offset = { -2 0 -9 }
 }
-adjacency_rule
-{
+adjacency_rule={
 	name = "KIEL_CANAL"
 	contested =
 	{
@@ -480,8 +471,7 @@ adjacency_rule
 	icon =10297
 	offset = { 5 0 -6 }
 }
-adjacency_rule
-{
+adjacency_rule={
 	name = "LENINGRAD_CANAL"
 	contested =
 	{

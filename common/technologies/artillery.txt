@@ -472,33 +472,6 @@ technologies = {
 			name = artillery_folder
 			position = { x = -3 y = 2 }
 		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.5
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			modifier = {
-				factor = 5
-				date > "1938.1.1"
-			}
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
-		}
 	}
 	antiair1 = {
 		anti_air = {
@@ -734,54 +707,6 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 7 y = 2 }
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.2
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			modifier = {
-				factor = 5
-				date > "1938.1.1"
-			}
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 30
-						}
-					}
-				}
-			}
 		}
 	}
 	antitank1 = {

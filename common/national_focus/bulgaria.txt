@@ -84,11 +84,6 @@ focus_tree = {
 		id = BUL_Break_Western_Ties
 		icon = GFX_focus_RAJ_clamp_down_on_corruption
 		prerequisite = { focus = BUL_Monarch_Speech }
-		available = {
-			BUL {
-				fascism > 0.4
-			}
-		}
 		x = 3
 		y = 1
 		cost = 5
