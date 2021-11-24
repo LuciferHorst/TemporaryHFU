@@ -9,7 +9,7 @@ state={
 		owner = SWI
 		add_core_of=SWE
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 		}
 		victory_points = {
 			623 10

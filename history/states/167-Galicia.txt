@@ -9,7 +9,7 @@ state={
 			6236 3
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 			anti_air_building = 10
 		}
 		add_core_of = SPR

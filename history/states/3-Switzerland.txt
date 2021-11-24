@@ -10,7 +10,7 @@ state={
 		add_core_of=SWE
 		victory_points = {601 15 }
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 		}
 	}
 	provinces={

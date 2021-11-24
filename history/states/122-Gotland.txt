@@ -13,7 +13,7 @@ state=
 		owner = SWE
 		add_core_of = SWE
 		buildings = {
-			infrastructure = 10
+			infrastructure = 5
 			5772 = {
 				naval_base = 1
 			}

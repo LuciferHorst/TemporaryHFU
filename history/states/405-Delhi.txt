@@ -8,7 +8,7 @@ state={
 		add_core_of=RAJ
 		buildings = {
 			industrial_complex = 1
-			infrastructure = 6
+			infrastructure = 3
 			air_base = 4
 		}
 		victory_points = {

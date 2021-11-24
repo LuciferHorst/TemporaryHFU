@@ -15,7 +15,7 @@ state={
 		1938.10.25 = {
 			buildings = {
 				industrial_complex = 3
-				infrastructure = 6
+				infrastructure = 3
 				air_base = 2
 				arms_factory = 2
 			}

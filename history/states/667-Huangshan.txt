@@ -24,7 +24,7 @@ state={
 				set_province_controller = 12019
 			}
 			buildings = {
-				infrastructure = 6
+				infrastructure = 3
 				air_base = 1
 			}
 		}
